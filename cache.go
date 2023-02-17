@@ -49,8 +49,8 @@ func (c *Cache) Delete(key string) error {
 	return nil
 }
 
-func validate(val string) error {
-	if val == "" {
+func validate(val interface{}) error {
+	if val == "" || val == nil {
 		return errors.New("key is empty")
 	}
 
