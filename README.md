@@ -1,6 +1,6 @@
 # cache
 
-Set(key string, value interface{}) - запись значения `value` в кеш по ключу `key`
+Set(key string, value interface{}) - запись значения `value` в кеш по ключу `key` </br>
 Get(key string)
 Delete(key)
 
