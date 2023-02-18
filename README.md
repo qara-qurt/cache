@@ -1,8 +1,8 @@
 # cache
 
 `Set(key string, value interface{})` - запись значения `value` в кеш по ключу `key` </br>
-`Get(key string)`
-`Delete(key)`
+`Get(key string)` - вытщить значение по `key` <br>
+`Delete(key)` - удалить по `key`
 
 
     func main() {
